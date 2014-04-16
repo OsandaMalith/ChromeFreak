@@ -1,3 +1,4 @@
+```
      ,gggg,                                                               
    ,88"""Y8b,,dPYb,                                                       
   d8"     `Y8IP'`Yb                                                       
@@ -19,7 +20,8 @@ Y8,          I8P    I8  ,8'    8I  i8'    ,8I  I8   8I   8I   8I  I8, ,8I
 		  gg,   88   ,8'    8I  I8, ,8I  i8'    ,8I  I8P' "Yb, 
 		   "Yb,,8P  ,dP     Y8, `YbadP' ,d8,   ,d8b,,d8    `Yb,
 		     "Y8P'  8P      `Y8888P"Y888P"Y8888P"`Y888P      Y8
-
+		     
+```
 [*] Author: Osanda Malith Jayathissa 
 [*] Follow @OsandaMalith
 [*] Description: A Cross-Platform Forensic Framework for Google Chrome
