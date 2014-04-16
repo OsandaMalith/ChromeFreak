@@ -5,6 +5,7 @@ on web browser Chrome. It was really fun exploring, making mistakes, a lot of ex
 formatting, queries are my own.
 If you plan to copy, redistribute it's okay but give credits to the original author. 
 Author: Osanda Malith Jayathissa 
+Website: http://osandamalith.wordpress.com
 '''
 import os
 import sys
