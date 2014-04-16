@@ -1,3 +1,6 @@
+ChromeFreak
+=============
+
 ```
      ,gggg,                                                               
    ,88"""Y8b,,dPYb,                                                       
@@ -22,6 +25,6 @@ Y8,          I8P    I8  ,8'    8I  i8'    ,8I  I8   8I   8I   8I  I8, ,8I
 		     "Y8P'  8P      `Y8888P"Y888P"Y8888P"`Y888P      Y8
 		     
 ```
-[*] Author: Osanda Malith Jayathissa 
+[*] Author: Osanda Malith Jayathissa <br>
 [*] Follow @OsandaMalith
 [*] Description: A Cross-Platform Forensic Framework for Google Chrome
