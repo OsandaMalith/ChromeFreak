@@ -371,7 +371,7 @@ def main():
 		
 		while True:
 			try:
-				choice = int(raw_input("[?] What do you like to invistigate? \
+				choice = int(raw_input("[?] What do you like to investigate? \
 					\n1. History\n2. Downloads\n3. Bookmarks\n4. Cookies\n5. Full Report\n6. Exit\n" ))
 			except ValueError:
 				print '[!] Enter Only a Number'
