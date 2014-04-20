@@ -18,7 +18,7 @@ import sqlite3
 import json
 
 # Do not edit unless you know what you are doing :)
-class chromeFreak():
+class chromeFreak(object):
 	def __init__(self, path):
 		self.path =  path
 
@@ -236,7 +236,7 @@ class chromeFreak():
 				sys.exit(0)
 
 	
-class Savefile():
+class Savefile(object):
     def __init__(self, filename, component):
         self.name = filename
         self.comp = component
