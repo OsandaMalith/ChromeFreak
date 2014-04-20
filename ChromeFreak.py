@@ -8,6 +8,10 @@ If you plan to copy, redistribute it's okay but give credits to the original aut
 Notes:	Please note this tool may contain errors, and is provided "as it is". There is no guarantee
 		that it will work on your target systems(s), as	the code may have to be adapted. 
 		This is to avoid script kiddie abuse as well. 
+		
+License:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Author: Osanda Malith Jayathissa 
 Website: http://osandamalith.wordpress.com
