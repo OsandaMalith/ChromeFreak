@@ -54,7 +54,7 @@ class chromeFreak(object):
 			for row in c:
 				try:
 				    history += 'URL = %s\n' %str(row[0])
-				    history += 'URL Title = %s\n' %str(row[1])
+				    history += 'URL Title = %s\n' %(row[1]).encode("utf-8")
 				    history += 'Number of Visits = %s\n' %str(row[2]) 
 				    history += 'Last Visit (UTC) = %s\n' %str(row[4]) 
 				    history += 'First Visit (UTC) = %s\n' %str(row[5]) 
@@ -145,7 +145,7 @@ class chromeFreak(object):
 			for i in range(0,2500):
 				try:
 					bookmarks += 'URL: %s\n' %str((data['roots']['bookmark_bar']['children'][i]['url']))
-					bookmarks +=  'Name: %s\n' %str((data['roots']['bookmark_bar']['children'][i]['name']))
+					bookmarks +=  'Name: %s\n' %(data['roots']['bookmark_bar']['children'][i]['name']).encode("utf-8")
 					bookmarks +=  'Type: %s\n' %str((data['roots']['bookmark_bar']['children'][i]['type']))
 					date_time = str(data['roots']['bookmark_bar']['children'][i]['date_added'])
 					con = sqlite3.connect(his).cursor().execute("select datetime((" + date_time+ "/1000000)-11644473600,'unixepoch', 'localtime')")
