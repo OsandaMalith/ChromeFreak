@@ -360,13 +360,13 @@ def main():
 			if (os.path.isdir(PathName) == False):
 				print '[!] Chrome Doesn\'t exists' 
 				sys.exit(0)
-		elif os.name == "posix":
+		elif ((os.name == "posix") not (sys.platform == "darwin")):
 			# This is the Linux Path
 			PathName = os.getenv('HOME') + '/.config/google-chrome/Default/'
-			#if (os.path.isdir(PathName) == False):
-				#print '[!] Chrome Doesn\'t exists' 
-				#sys.exit(0)
-		elif ((os.name == "posix") and (os.path.isdir(PathName) == False)):
+			if (os.path.isdir(PathName) == False):
+				print '[!] Chrome Doesn\'t exists' 
+				sys.exit(0)
+		elif ((os.name == "posix") and (sys.platform == "darwin")):
 			# This is the OS X Path
 			PathName = os.getenv('HOME') + "/Library/Application Support/Google/Chrome/Default/"
 			if (os.path.isdir(PathName) == False):
