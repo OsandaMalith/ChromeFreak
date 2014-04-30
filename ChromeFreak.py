@@ -1,7 +1,7 @@
 #!/usr/bin/python
 '''
 This is a open source forensic framework for Google Chrome. This application was fully written by me after researching 
-on web browser Chrome. It was really fun exploring, making mistakes, a lot of expirience as a developer. Most of these code,
+on web browser Chrome. It was really fun exploring, making mistakes, a lot of experience as a developer. Most of these code,
 formatting, queries are my own.
 If you plan to copy, redistribute it's okay but give credits to the original author. 
 
