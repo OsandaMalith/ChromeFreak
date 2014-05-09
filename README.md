@@ -13,7 +13,7 @@ A Cross-Platform Forensic Framework for Google Chrome
 <h3>What is this all about?</h3>
 
 Once again as like the SkypeFreak this application is a forensic tool for Google Chrome. I am sure you will love it.
-You can inbestigate the hisotory, downloads, bookmarks, cookies and also get a full report.
+You can investigate the hisotory, downloads, bookmarks, cookies and also get a full report.
 
 <h3>Disclaimer</h3>
 
